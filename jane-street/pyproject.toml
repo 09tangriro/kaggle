@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jane-street"
+version = "0.1.0"
+description = "Environment for Jane Street Kaggle Competition"
+authors = ["Rohan Tangri <rohan.tangri@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+polars = "^1.9.0"
+tqdm = "^4.66.5"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+ipykernel = "^6.29.5"
+pyarrow = "^17.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
